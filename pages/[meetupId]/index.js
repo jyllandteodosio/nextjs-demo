@@ -43,7 +43,7 @@ export async function getStaticPaths() {
 //fallback: true/'blocking' - next.js will not respond with 404 if it cant find the page
 //-it will generate the page on demand (cached)
 //true: return an empty page, then get data
-//blocking: user cannot see anything until everything is generated
+//blocking: user cannot see anything until everything is generated 
 
 export async function getStaticProps(context) {
   const meetupId = context.params.meetupId;
